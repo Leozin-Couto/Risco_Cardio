@@ -1,0 +1,1 @@
+Um código feito em Python, onde utilizei bibliotecas binarias e cartesianas para criei um sistema através de uma machine learning para treinar o modelo e obter um resultado mais preciso, no caso dar uma probabilidade mais ideal de um possível ataque cardíaco.  
