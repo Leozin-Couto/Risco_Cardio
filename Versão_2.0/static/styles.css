@@ -1,0 +1,68 @@
+:root {
+    --cor_principal: rgb(136, 192, 16);
+    --cor_secundaria: rgb(42, 160, 9);
+    --fonte_principal: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-color: var(--cor_principal);
+
+}
+h1 {
+    font-family: var(--fonte_principal);
+    background-color: aliceblue;
+    text-align: center;
+    border: solid, 1px;
+    border-color: black;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#formulario_idade {
+    font-family: var(--fonte_principal);
+    font-size: 25px;
+    text-align: center;
+}
+input {
+    text-align: left;
+}
+.sub_titulo {
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: left;
+}
+#idade {
+    margin-top: 10px;
+    margin-bottom: 6px;
+    margin-left: 96px;
+}
+#pressao {
+    margin-bottom: 6px;
+}
+#colesterol {
+    margin-left: 11px;
+    margin-bottom: 6px;
+}
+#Fumante {
+    margin-left: 8px;
+    margin-bottom: 6px;
+}
+#imc {
+    margin-left: 106px;
+    margin-bottom: 6px;
+}
+form {
+    text-align: left;
+    background-color: var(--cor_secundaria);
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#submit {
+    margin-top: 10px;
+    font-family: var(--fonte_principal);
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+p {
+    font-family: var(--fonte_principal);
+}

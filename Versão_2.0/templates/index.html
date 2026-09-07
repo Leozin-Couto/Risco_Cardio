@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="static/sytles.css">
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Risco Cardio</title>
 </head>
 <body>
-    <h1>Site de Teste Cardiaco</h1>
+    <h1>Site de Teste Cardíaco</h1>
+    <p class="sub_titulo">Insira as informações</p>
     <div class="formulario" id="formulario_idade">
-        <p>Insira as informações</p>
-        idade: <input type="number" min="0" placeholder="Digite a idade"><br>
-        Pressão sistólica: <input type="number" min="0" placeholder="Digite a Pressão sistólica (ex: 120)"><br>
-        Colesterol total: <input type="number" min="0" placeholder="Digite a Colesterol total (ex: 200)"><br>
-        Fumante (1 = Sim / 0 = Não): <input type="number" min="0" max="1" placeholder="Digite a Fumante? (1 = Sim / 0 = Não)"><br>
-        IMC: <input type="number" min="10.1" placeholder="Digite o IMC"><br>
+        <form action="">
+        idade: <input id="idade" type="number" min="0" placeholder="Digite a idade"><br>
+        Pressão sistólica: <input id="pressao" type="number" min="0" placeholder="Digite a Pressão sistólica (ex: 120)"><br>
+        Colesterol total: <input id="colesterol" type="number" min="0" placeholder="Digite a Colesterol total (ex: 200)"><br>
+        Fumante (1 = Sim / 0 = Não): <input id="Fumante" type="number" min="0" max="1" placeholder="Digite a Fumante? (1 = Sim / 0 = Não)"><br>
+        IMC: <input id="imc" type="number" min="10.1" placeholder="Digite o IMC"><br>
+        <input id="submit" type="submit" value="Calcular Chance">
+        </form>
     </div>
     <div class="resultado">
-        <h1>resultado</h1>
+        <h1>Resultado</h1>
     </div>
 </body>
 </html>
