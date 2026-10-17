@@ -1,1 +1,2 @@
 Um código feito em Python, onde utilizei bibliotecas binarias e cartesianas para criar um sistema através de um machine learning para treinar o modelo e obter um resultado mais preciso, no caso dar uma probabilidade mais ideal de um possível ataque cardíaco.  
+No momento estou incluindo uma interface gráfica para um melhor uso no risco cardio, utilizando a biblioteca de interface gráfica... Tkinter
